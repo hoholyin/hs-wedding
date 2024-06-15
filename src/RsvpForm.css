@@ -1,0 +1,61 @@
+
+.rsvp-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-label-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 80%;
+    padding: 4px;
+}
+
+.form-label {
+    font-family: Asap-Condensed, serif;
+    font-size: 22px;
+    text-align: start;
+}
+
+.input-box {
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.input-attendance-row {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.attendance-not-selected {
+    width: 40%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    border-radius: 20px;
+}
+.attendance-selected {
+    width: 40%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: green;
+    border-radius: 20px;
+}
+
+.submit {
+    width: 80%;
+    font-size: 30px;
+    font-family: Asap-Condensed, serif;
+    border-radius: 20px;
+}

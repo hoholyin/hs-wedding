@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: cornflowerblue;
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.main {
+  background-color: lightblue;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-title {
+  font-family: Adlery-Pro, Arial;
+  font-size: 30px;
+  color: mintcream;
+}
+
+@font-face {
+  font-family: 'Adlery-Pro';
+  src: url('../assets/fonts/adlery-pro-family/adlery-pro.regular.ttf');
+}
+
+@font-face {
+  font-family: 'Asap-Condensed';
+  src: url('../assets/fonts/asap-condensed/AsapCondensed-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Beauty-Mountains';
+  src: url('../assets/fonts/beauty-mountains-personal-use/beauty-mountains-personal-use.regular.ttf');
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
