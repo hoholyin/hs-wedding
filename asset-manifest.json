@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.38ef92f5.css",
+    "main.js": "/static/js/main.00829d6a.js",
+    "static/js/453.56e92d94.chunk.js": "/static/js/453.56e92d94.chunk.js",
+    "static/media/adlery-pro.regular.ttf": "/static/media/adlery-pro.regular.6f3a8bdb0dbcc9f265d0.ttf",
+    "static/media/beauty-mountains-personal-use.regular.ttf": "/static/media/beauty-mountains-personal-use.regular.4fffdced81aa2a22b57a.ttf",
+    "static/media/AsapCondensed-Regular.ttf": "/static/media/AsapCondensed-Regular.b7d6918bd4a6da8589a4.ttf",
+    "index.html": "/index.html",
+    "main.38ef92f5.css.map": "/static/css/main.38ef92f5.css.map",
+    "main.00829d6a.js.map": "/static/js/main.00829d6a.js.map",
+    "453.56e92d94.chunk.js.map": "/static/js/453.56e92d94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38ef92f5.css",
+    "static/js/main.00829d6a.js"
+  ]
+}
