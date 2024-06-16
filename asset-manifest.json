@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hs-wedding/static/css/main.a49691f7.css",
-    "main.js": "/hs-wedding/static/js/main.06ccf749.js",
+    "main.css": "/hs-wedding/static/css/main.717e1e67.css",
+    "main.js": "/hs-wedding/static/js/main.0b75b6b2.js",
     "static/js/453.56e92d94.chunk.js": "/hs-wedding/static/js/453.56e92d94.chunk.js",
     "static/media/adlery-pro.regular.ttf": "/hs-wedding/static/media/adlery-pro.regular.6f3a8bdb0dbcc9f265d0.ttf",
     "static/media/beauty-mountains-personal-use.regular.ttf": "/hs-wedding/static/media/beauty-mountains-personal-use.regular.4fffdced81aa2a22b57a.ttf",
     "static/media/AsapCondensed-Regular.ttf": "/hs-wedding/static/media/AsapCondensed-Regular.b7d6918bd4a6da8589a4.ttf",
     "index.html": "/hs-wedding/index.html",
-    "main.a49691f7.css.map": "/hs-wedding/static/css/main.a49691f7.css.map",
-    "main.06ccf749.js.map": "/hs-wedding/static/js/main.06ccf749.js.map",
+    "main.717e1e67.css.map": "/hs-wedding/static/css/main.717e1e67.css.map",
+    "main.0b75b6b2.js.map": "/hs-wedding/static/js/main.0b75b6b2.js.map",
     "453.56e92d94.chunk.js.map": "/hs-wedding/static/js/453.56e92d94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a49691f7.css",
-    "static/js/main.06ccf749.js"
+    "static/css/main.717e1e67.css",
+    "static/js/main.0b75b6b2.js"
   ]
 }
