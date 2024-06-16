@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: cornflowerblue;
+  background-color: #66CDDC;
   min-height: 10vh;
   width: 100%;
   display: flex;
@@ -22,10 +22,11 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  padding-top: 18px;
 }
 
 .main {
-  background-color: lightblue;
+  background-color: #F3FDFE;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -35,7 +36,13 @@
 .app-title {
   font-family: Adlery-Pro, Arial;
   font-size: 30px;
-  color: mintcream;
+  color: #222222;
+}
+
+.app-subheader {
+  font-family: Asap-Condensed, Arial;
+  font-size: 15px;
+  color: #222222;
 }
 
 @font-face {
