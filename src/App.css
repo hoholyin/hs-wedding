@@ -22,11 +22,10 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  padding-top: 18px;
 }
 
 .main {
-  background-color: #F3FDFE;
+  background-color: #FFFFFF;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -35,29 +34,84 @@
 
 .app-title {
   font-family: Adlery-Pro, Arial;
-  font-size: 30px;
+  font-size: 48px;
   color: #222222;
+}
+
+.app-title-small {
+  font-family: Adlery-Pro, Arial;
+  font-size: 35px;
+  color: #222222;
+}
+
+.app-title-detail {
+  font-family: Asap-Condensed, Arial;
+  font-size: 20px;
+  color: #222222;
+  font-style: italic;
+  padding-bottom: 20px;
 }
 
 .app-subheader {
   font-family: Asap-Condensed, Arial;
-  font-size: 15px;
+  font-size: 28px;
   color: #222222;
+  padding-bottom: 20px;
+}
+
+.app-subheader-detail {
+  font-family: Asap-Condensed, Arial;
+  font-size: 18px;
+  color: #666666;
+}
+
+.welcome-photo {
+  height: 80px;
+}
+
+.welcome-message {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 40px;
+  justify-content: center;
+}
+
+.welcome-message-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.welcome-message-text {
+  font-family: Asap-Condensed;
+  font-size: 18px;
+}
+
+.app-title-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 @font-face {
   font-family: 'Adlery-Pro';
-  src: url('../assets/fonts/adlery-pro-family/adlery-pro.regular.ttf');
+  src: url('assets/fonts/adlery-pro-family/adlery-pro.regular.ttf');
 }
 
 @font-face {
   font-family: 'Asap-Condensed';
-  src: url('../assets/fonts/asap-condensed/AsapCondensed-Regular.ttf');
+  src: url('assets/fonts/asap-condensed/AsapCondensed-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Beauty-Mountains';
-  src: url('../assets/fonts/beauty-mountains-personal-use/beauty-mountains-personal-use.regular.ttf');
+  src: url('assets/fonts/beauty-mountains-personal-use/beauty-mountains-personal-use.regular.ttf');
 }
 
 @keyframes App-logo-spin {
@@ -67,4 +121,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header-photo {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-title {
+  z-index: 10;
+  background-color: #f3fdfe;
+  width: 80%;
+  height: 80%;
+  opacity: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+}
+
+.spacer {
+  height: 0;
+  padding-bottom: 140%;
 }

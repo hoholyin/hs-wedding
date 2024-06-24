@@ -92,3 +92,30 @@
     border-radius: 5px;
     padding: 5px 50px;
 }
+
+.language-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-button {
+    font-family: Asap-Condensed;
+    font-size: 20px;
+    color: #999999;
+}
+
+.language-button-selected {
+    font-family: Asap-Condensed;
+    font-size: 20px;
+    color: black;
+}
+
+.language-button:hover {
+    cursor: pointer;
+}
+
+.language-button-divider {
+    padding: 0 20px;
+}

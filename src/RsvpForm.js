@@ -14,6 +14,7 @@ const RsvpForm = (props) => {
     const [diet, setDiet] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const [showConfirmation, setShowConfirmation] = useState(false);
+    const [language, setLanguage] = useState("ENG");
 
     const submitRsvp = async () => {
         setIsLoading(true);
@@ -52,40 +53,47 @@ const RsvpForm = (props) => {
         )
         : (
             <div className="rsvp-form">
+                <div className="language-toggle">
+                    <span className={language === "ENG" ? "language-button-selected" : "language-button"}
+                          onClick={() => setLanguage("ENG")}>English</span>
+                    <span className="language-button-divider">|</span>
+                    <span className={language === "CHN" ? "language-button-selected" : "language-button"}
+                        onClick={() => setLanguage("CHN")}>中文</span>
+                </div>
                 <div className="form-label-container">
-                    <span className="form-label">NAME</span>
-            </div>
-            <input className="input-box" type="text" value={name} onChange={e => setName(e.target.value)}/>
-            <div className="form-label-container">
-                <span className="form-label">EMAIL ADDRESS</span>
-            </div>
-            <input className="input-box" type="text" value={emailAddress}
-                   onChange={e => setEmailAddress(e.target.value)}/>
-            <div className="form-label-container">
-                <span className="form-label">ARE YOU COMING?</span>
-            </div>
-            <div className="input-attendance-row">
-                <div className={attendanceIndicator === "Y" ? "attendance-selected" : "attendance-not-selected"}>
-                    <IoCheckmark size={50} onClick={() => setAttendanceIndicator("Y")}/>
+                <span className="form-label">NAME</span>
                 </div>
-                <div className={attendanceIndicator === "N" ? "attendance-selected" : "attendance-not-selected"}>
-                    <RxCross2 size={50} onClick={() => setAttendanceIndicator("N")}/>
+                <input className="input-box" type="text" value={name} onChange={e => setName(e.target.value)}/>
+                <div className="form-label-container">
+                    <span className="form-label">EMAIL ADDRESS</span>
                 </div>
-            </div>
-            <div className="form-label-container">
-                <span className="form-label">DIETARY RESTRICTIONS</span>
-                <span className="form-label">(Leave blank if you eat anything)</span>
-            </div>
-            <input className="input-box" type="text" value={diet} onChange={e => setDiet(e.target.value)}/>
-            {isLoading
-                ? <Audio height={20}/>
-                : <button className={!canSubmit() ? "submit-disabled" : "submit"}
-                          onClick={() => isLoading || !canSubmit() ? null : submitRsvp()}>
-                    Let's go!
+                <input className="input-box" type="text" value={emailAddress}
+                       onChange={e => setEmailAddress(e.target.value)}/>
+                <div className="form-label-container">
+                    <span className="form-label">ARE YOU COMING?</span>
+                </div>
+                <div className="input-attendance-row">
+                    <div className={attendanceIndicator === "Y" ? "attendance-selected" : "attendance-not-selected"}>
+                        <IoCheckmark size={50} onClick={() => setAttendanceIndicator("Y")}/>
+                    </div>
+                    <div className={attendanceIndicator === "N" ? "attendance-selected" : "attendance-not-selected"}>
+                        <RxCross2 size={50} onClick={() => setAttendanceIndicator("N")}/>
+                    </div>
+                </div>
+                <div className="form-label-container">
+                    <span className="form-label">DIETARY RESTRICTIONS</span>
+                    <span className="form-label">(Leave blank if you eat anything)</span>
+                </div>
+                <input className="input-box" type="text" value={diet} onChange={e => setDiet(e.target.value)}/>
+                {isLoading
+                    ? <Audio height={20}/>
+                    : <button className={!canSubmit() ? "submit-disabled" : "submit"}
+                              onClick={() => isLoading || !canSubmit() ? null : submitRsvp()}>
+                        Let's go!
                     </button>
-            }
-        </div>
-    );
+                }
+            </div>
+        );
 }
 
 export default RsvpForm;
