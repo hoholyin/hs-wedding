@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/hs-wedding/static/css/main.e96abe93.css",
-    "main.js": "/hs-wedding/static/js/main.67f82f07.js",
+    "main.css": "/hs-wedding/static/css/main.815e2a92.css",
+    "main.js": "/hs-wedding/static/js/main.ee5e2e46.js",
     "static/js/453.56e92d94.chunk.js": "/hs-wedding/static/js/453.56e92d94.chunk.js",
     "static/media/header-photo-3.jpg": "/hs-wedding/static/media/header-photo-3.173046f73fb487ef70c7.jpg",
+    "static/media/lets_go.jpg": "/hs-wedding/static/media/lets_go.d937200e7a4e12773626.jpg",
     "static/media/adlery-pro.regular.ttf": "/hs-wedding/static/media/adlery-pro.regular.6f3a8bdb0dbcc9f265d0.ttf",
     "static/media/boy2.jpg": "/hs-wedding/static/media/boy2.57c15790da84463dc732.jpg",
     "static/media/Canela-Regular.ttf": "/hs-wedding/static/media/Canela-Regular.f94803280ce2e6b19fe5.ttf",
     "static/media/AsapCondensed-Regular.ttf": "/hs-wedding/static/media/AsapCondensed-Regular.b7d6918bd4a6da8589a4.ttf",
     "static/media/girl2.jpg": "/hs-wedding/static/media/girl2.ecf4d17d89d87114ac90.jpg",
     "index.html": "/hs-wedding/index.html",
-    "main.e96abe93.css.map": "/hs-wedding/static/css/main.e96abe93.css.map",
-    "main.67f82f07.js.map": "/hs-wedding/static/js/main.67f82f07.js.map",
+    "main.815e2a92.css.map": "/hs-wedding/static/css/main.815e2a92.css.map",
+    "main.ee5e2e46.js.map": "/hs-wedding/static/js/main.ee5e2e46.js.map",
     "453.56e92d94.chunk.js.map": "/hs-wedding/static/js/453.56e92d94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e96abe93.css",
-    "static/js/main.67f82f07.js"
+    "static/css/main.815e2a92.css",
+    "static/js/main.ee5e2e46.js"
   ]
 }
