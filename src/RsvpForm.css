@@ -16,7 +16,7 @@
 
 .form-label {
     font-family: Asap-Condensed, serif;
-    font-size: 22px;
+    font-size: 18px;
     text-align: start;
     letter-spacing: 1px;
     color: #222222;
@@ -60,7 +60,6 @@
     font-size: 30px;
     font-family: Asap-Condensed, serif;
     border-radius: 5px;
-    background-color: #AFD6EF;
 }
 
 .submit-disabled {
@@ -118,4 +117,9 @@
 
 .language-button-divider {
     padding: 0 20px;
+}
+
+.lets-go-button {
+    width: 100%;
+    border-radius: 15px;
 }

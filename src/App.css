@@ -63,10 +63,36 @@
   font-family: Asap-Condensed, Arial;
   font-size: 18px;
   color: #666666;
+  padding-bottom: 5px;
 }
 
 .welcome-photo {
   height: 80px;
+  -webkit-animation:spin 1.5s linear infinite;
+  -moz-animation:spin 1.5s linear infinite;
+  animation:spin 1.5s linear infinite;
+}
+
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(-15deg); }
+  25% { -moz-transform: rotate(0); }
+  50% { -moz-transform: rotate(15deg); }
+  75% { -moz-transform: rotate(0); }
+  100% { -moz-transform: rotate(-15deg); }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(-15deg); }
+  25% { -webkit-transform: rotate(0); }
+  50% { -webkit-transform: rotate(15deg); }
+  75% { -webkit-transform: rotate(0); }
+  100% { -webkit-transform: rotate(-15deg); }
+}
+@keyframes spin {
+  0% { -webkit-transform: rotate(-15deg); transform: rotate(-15deg)}
+  25% { -webkit-transform: rotate(0); transform: rotate(0)}
+  50% { -webkit-transform: rotate(15deg); transform: rotate(15deg)}
+  75% { -webkit-transform: rotate(0); transform: rotate(0)}
+  100% { -webkit-transform: rotate(-15deg); transform: rotate(-15deg)}
 }
 
 .welcome-message {
@@ -110,8 +136,8 @@
 }
 
 @font-face {
-  font-family: 'Beauty-Mountains';
-  src: url('assets/fonts/beauty-mountains-personal-use/beauty-mountains-personal-use.regular.ttf');
+  font-family: 'Canela Regular';
+  src: url('assets/fonts/canela-regular/Canela-Regular.ttf');
 }
 
 @keyframes App-logo-spin {
